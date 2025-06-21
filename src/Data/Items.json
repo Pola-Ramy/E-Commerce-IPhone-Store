@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone 12",
+    "price": 399,
+    "imgUrl": "/imgs/Iphone12.jpeg",
+    "category ": "Iphone"
+  },
+  {
+    "id": 2,
+    "name": "Iphone 13",
+    "price": 499,
+    "imgUrl": "/imgs/Iphone13.jpeg",
+    "category ": "Iphone"
+  },
+  {
+    "id": 3,
+    "name": "Iphone 14",
+    "price": 599,
+    "imgUrl": "/imgs/Iphone14.jpeg",
+    "category ": "Iphone"
+  },
+  {
+    "id": 4,
+    "name": "Iphone 15",
+    "price": 699,
+    "imgUrl": "/imgs/Iphone14.jpeg",
+    "category ": "Iphone"
+  },
+  {
+    "id": 5,
+    "name": "Iphone 15 pro max",
+    "price": 999,
+    "imgUrl": "/imgs/iphone 15 pro max.jpeg",
+    "category ": "Iphone"
+  },
+  {
+    "id": 6,
+    "name": "Iphone 16",
+    "price": 1199,
+    "imgUrl": "/imgs/Iphone16.jpg",
+    "category ": "Iphone"
+  },
+  {
+    "id": 7,
+    "name": "Ipad Pro M4 ",
+    "price": 799,
+    "imgUrl": "/imgs/Ipad-1.jpeg",
+    "category ": "Ipad"
+  },
+  {
+    "id": 8,
+    "name": "Ipad Pro M3",
+    "price": 699,
+    "imgUrl": "/imgs/Ipad-2.jpeg",
+    "category ": "Ipad"
+  },
+  {
+    "id": 9,
+    "name": "Airpods-1",
+    "price": 99,
+    "imgUrl": "/imgs/airpods-1.jpeg",
+    "category ": "Airpods"
+  },
+  {
+    "id": 10,
+    "name": "Airpods-2",
+    "price": 199,
+    "imgUrl": "/imgs/airpods-2.jpeg",
+    "category ": "Airpods"
+  }
+]

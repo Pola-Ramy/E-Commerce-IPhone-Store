@@ -1,0 +1,49 @@
+/* Global font and background */
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #212529;
+    letter-spacing: 0.01em;
+    margin-bottom: 0.75em;
+  }
+  
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  a:hover, a:focus {
+    color: #0a58ca;
+    text-decoration: underline;
+  }
+  
+  .btn, .btn-primary, .btn-danger, .btn-light {
+    border-radius: 0.5rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  }
+  .btn:hover, .btn:focus {
+    box-shadow: 0 4px 16px rgba(13,110,253,0.15);
+  }
+  
+  .card, .bg-white, .shadow-sm {
+    border-radius: 1rem !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    background: #f8f9fa;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #dee2e6;
+    border-radius: 4px;
+  }
+  
