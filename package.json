@@ -1,6 +1,5 @@
 {
   "name": "shopping_cart",
-  "homepage": "https://Pola-Ramy.github.io/E-Commerce-IPhone-Store/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,15 +15,15 @@
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "gh-pages": "^6.3.0",
-    "react": "^19.1.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.10.10",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react-swc": "^3.9.0",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",

@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import ShoppingCart from "../Components/ShoppingCart";
 
 const ShoppingCartContext = createContext({});
 const initialCartItems = localStorage.getItem("shopping-cart")
@@ -80,10 +79,10 @@ const ShoppingCartProvider = ({ children }) => {
         cartItems,
         activeCategory,
         filterByCategory,
+        isOpen,
       }}
     >
       {children}
-      <ShoppingCart isOpen={isOpen} />
     </ShoppingCartContext.Provider>
   );
 };

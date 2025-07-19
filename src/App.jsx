@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Store from "./Components/Store";
 import About from "./Components/About";
 import Navbar from "./Components/Navbar";
+import ShoppingCart from "./Components/ShoppingCart";
 import ShoppingCartProvider from "./context/ShoppingCartContext";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </Container>
+        <ShoppingCart />
       </ShoppingCartProvider>
     </>
   );

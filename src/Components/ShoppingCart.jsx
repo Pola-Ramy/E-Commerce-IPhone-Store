@@ -5,8 +5,8 @@ import CartItem from "./CartItem";
 import formatCurrency from "./FormatCurrency";
 import Items from "../Data/Items.json";
 
-const ShoppingCart = ({ isOpen }) => {
-  const { cartItems, closeCart } = useShoppingCart();
+const ShoppingCart = () => {
+  const { cartItems, closeCart, isOpen } = useShoppingCart();
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
       <Offcanvas.Header closeButton>
