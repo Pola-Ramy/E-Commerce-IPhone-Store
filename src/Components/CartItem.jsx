@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Stack } from "react-bootstrap";
 import storeItems from "../Data/Items.json";
-import Formatcurrency from "./FormtCurrent";
+import formatCurrency from "./FormatCurrency";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 const CartItem = ({ id, quantity }) => {
@@ -24,11 +24,11 @@ const CartItem = ({ id, quantity }) => {
             </span>
           )}
           <div className="text-muted" style={{ fontSize: "0.75rem" }}>
-            {Formatcurrency(item.price)}
+            {formatCurrency(item.price)}
           </div>
         </div>
       </div>
-      <div>{Formatcurrency(item.price * quantity)}</div>
+      <div>{formatCurrency(item.price * quantity)}</div>
       <Button
         variant="outline-danger"
         size="sm"

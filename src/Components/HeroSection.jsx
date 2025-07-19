@@ -1,4 +1,5 @@
 import React from "react";
+import img16 from "/imgs/Iphone16.jpg";
 
 const HeroSection = () => {
   return (
@@ -34,7 +35,7 @@ const HeroSection = () => {
                 }}
               >
                 <img
-                  src="/imgs/Iphone16.jpg"
+                  src={img16}
                   alt="iPhone Hero"
                   className="img-fluid rounded shadow-lg border border-3 border-white"
                   style={{

@@ -24,7 +24,7 @@
     "id": 4,
     "name": "Iphone 15",
     "price": 699,
-    "imgUrl": "/imgs/Iphone14.jpeg",
+    "imgUrl": "/imgs/Iphone15.jpeg",
     "category ": "Iphone"
   },
   {
@@ -57,15 +57,15 @@
   },
   {
     "id": 9,
-    "name": "Airpods-1",
-    "price": 99,
+    "name": "AirPods Pro",
+    "price": 249,
     "imgUrl": "/imgs/airpods-1.jpeg",
     "category ": "Airpods"
   },
   {
     "id": 10,
-    "name": "Airpods-2",
-    "price": 199,
+    "name": "AirPods Max",
+    "price": 549,
     "imgUrl": "/imgs/airpods-2.jpeg",
     "category ": "Airpods"
   }

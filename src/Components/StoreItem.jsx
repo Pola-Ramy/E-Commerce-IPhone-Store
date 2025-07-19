@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card, CardBody, CardTitle } from "react-bootstrap";
-import Formatcurrency from "./FormtCurrent.js";
+import formatCurrency from './FormatCurrency.js';
 import { useShoppingCart } from "../context/ShoppingCartContext.jsx";
 
 const StoreItem = ({ id, imgUrl, price, name }) => {
@@ -40,7 +40,7 @@ const StoreItem = ({ id, imgUrl, price, name }) => {
       <CardBody>
         <CardTitle className="d-flex justify-content-between align-items-baseline">
           <span className="fs-4" >{name}</span>
-          <span className="text-muted me-2">{Formatcurrency(price)}</span>
+          <span className="text-muted me-2">{formatCurrency(price)}</span>
         </CardTitle>
         {quantity === 0 ? (
           <Button className="w-100" onClick={() => increaseCartQuantity(id)}>

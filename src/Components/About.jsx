@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import img16 from "/imgs/Iphone16.jpg";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-md-6 mb-4 mb-md-0">
               <img
-                src="/imgs/Iphone16.jpg"
+                src={img16}
                 alt="About Our Store"
                 className="img-fluid rounded shadow-lg"
                 style={{
