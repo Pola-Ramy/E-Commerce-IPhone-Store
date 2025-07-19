@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, CardBody, CardTitle } from "react-bootstrap";
-import formatCurrency from './FormatCurrency.js';
-import { useShoppingCart } from "../context/ShoppingCartContext.jsx";
+import formatCurrency from './FormatCurrency';
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 const StoreItem = ({ id, imgUrl, price, name }) => {
   const {
